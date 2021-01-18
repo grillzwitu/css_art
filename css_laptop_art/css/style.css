@@ -1,0 +1,110 @@
+* {
+    margin: 10px;
+    padding: 10px;
+}
+
+body {
+    background-color: lightcoral;
+}
+
+/*rules for creating the screen(starting the laptop) */
+.laptop {
+    height: 150px;
+    width: 270px;
+    background: black;
+    border: 5px solid #5166b9;
+    border-top: 10px solid #5166b9;
+    border-radius: 20px 20px 0 0;
+    
+}
+
+.laptop h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+}
+
+/* rules for creating the keyboard*/
+.keyboard {
+    width: 280px;
+    height: 0;
+    position: absolute;
+    border-bottom: 66px solid #7188e4;
+    bottom: 325.6px;
+    left: 20px;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+}
+
+/* rules for giving the keyboard depth*/
+.keyboard:after {
+    content: "";
+    position: absolute;
+    left: -40px;
+    width: 380px;
+    height: 10px;
+    border-radius: 0px 0px 6px 6px;
+    background: #8d93ab;
+    bottom: -76px;   
+}
+
+/* Rules for creating the mouse/touchpad*/
+.keyboard:before {
+    content: "";
+    position: absolute;
+    left: 70px; /*At 105px touchpad is central and would not need "transform"*/
+    width: 60px;
+    height: 10px;
+    bottom: -62px;
+    border-bottom: 22px solid #8d93ab;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    transform: translateX(50%); 
+}
+
+/*rules for creating key's base*/
+.keyboard-Keys-Base {
+    position: absolute;
+    left: -11px; 
+    width: 250px;
+    height: 0px;
+    border-bottom: 32px solid black;
+    border-left: 16px solid transparent;
+    border-right: 16px solid transparent;
+    /*transform: translateX(50%);*/ 
+    top: -5px;
+}
+
+/*rules for creating keys*/
+.keyboard-Keys-Base:after {
+    content: "";
+    position: absolute;
+    left: 3px;
+    background: #fff;
+    width: 3px;
+    height: 0px;
+    border-bottom: 4px solid white;
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    top: 26px;
+    box-shadow: 15px 0 0 0 white, 30px 0 0 0 white, 45px 0 0 0 white, 
+                60px 0 0 0 white, 75px 0 0 0 white, 90px 0 0 0 white, 
+                105px 0 0 0 white, 120px 0 0 0 white, 135px 0 0 0 white,
+                150px 0 0 0 white, 165px 0 0 0 white, 180px 0 0 0 white,
+                195px 0 0 0 white, 210px 0 0 0 white, 225px 0 0 0 white,
+                240px 0 0 0 white, 255px 0 0 0 white, -7px 8px 0 -0.2px white, 
+                7px 8px 0 -0.2px white, 23px 8px 0 -0.2px white, 38px 8px 0 -0.2px white, 
+                53px 8px 0 -0.2px white, 68px 8px 0 -0.2px white, 83px 8px 0 -0.2px white, 
+                98px 8px 0 -0.2px white, 113px 8px 0 -0.2px white, 128px 8px 0 -0.2px white, 
+                143px 8px 0 -0.2px white, 158px 8px 0 -0.2px white, 173px 8px 0 -0.2px white, 
+                188px 8px 0 -0.2px white, 203px 8px 0 -0.2px white, 218px 8px 0 -0.2px white, 
+                233px 8px 0 -0.2px white, 248px 8px 0 -0.2px white, 263px 8px 0 -0.2px white, 
+                -5px 16px 0 0px white, 0px 16px 0 0px white, 15px 16px 0 0px white,
+                30px 16px 0 0 white, 45px 16px 0 0 white, 60px 16px 0 0 white, 
+                75px 16px 0 0 white, 90px 16px 0 0 white, 105px 16px 0 0 white,
+                120px 16px 0 0 white, 135px 16px 0 0 white, 150px 16px 0 0 white,
+                165px 16px 0 0 white, 180px 16px 0 0 white, 195px 16px 0 0 white,
+                210px 16px 0 0 white, 225px 16px 0 0 white, 240px 16px 0 0 white,
+                255px 16px 0 0 white;
+    
+}

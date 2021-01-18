@@ -1,0 +1,39 @@
+STEPS
+
+- Create the screen.
+- Create the base.
+- Create the touch pad.
+- Create the keyboard-key's base.
+- Create the keys.
+
+STEP 1:  Create The Screen
+
+- Create a rectangle for the laptop screen  
+- Set background color.
+
+Set a solid border for side bezel
+- Top border should be larger than side and bottom borders.
+- Set border-radius to curve the screen edges.
+
+STEP 2: Create The Base
+
+- A Trapezium shape is a good fit for the base of the laptop.
+- Borders or any other technique can be used to make a trapezium.
+- Add depth and volume to the base to make it look 3D/realistic.
+- Create a narrow strip and place it at the bottom of the base
+- Add border-radius at bottom left and bottom right.
+
+STEP 3: Create The Touch Pad
+
+- Another trapezium with top and bottom sides almost equal.
+- Place touch pad to the center of the base
+
+STEP 4: Create The Keyboard-Key's base
+
+- Create a trapezium for the key's base. 
+- Place it at the center of the laptop base.
+
+STEP 5: Create The Keys
+
+- Create a small solid white trapezium and use <shadowbox> to duplicate it.
+- Repeat the shadowbox method to create multiple keys.
