@@ -1,0 +1,153 @@
+.container {
+    margin: 10px;
+    padding: 10px;    
+}
+
+#main_body_div {
+    background-color: aqua;
+}
+
+#body_cont_div {
+    text-align: center;
+    background-color: teal;
+    border-radius: 15px;
+    padding: 10px 20px;
+}
+
+.shape {
+    margin: 10px 10px;
+}
+
+.shape_container {
+    display: inline-block;
+}
+
+.circle {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: goldenrod;
+}
+
+.semi-circle {
+    height: 200px;
+    width: 400px;
+    border-radius: 200px 200px 0 0;
+    background-color: goldenrod;
+}
+
+.triangle {
+    height: 0;
+    width: 0;
+    border-bottom: 200px solid goldenrod;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.trapezium {
+    height: 0;
+    width: 100px;
+    border-bottom: 100px solid goldenrod;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+}
+
+.parallelogram {
+    margin-left: 30px;
+    height: 200px;
+    width: 230px;
+    background-color: goldenrod;
+    transform: skewX(-20deg);
+}
+
+.hexagon {
+    position: relative;
+    width: 120px;
+    height: 0;
+    border-top: 100px solid goldenrod;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+}
+
+.hexagon::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 0;
+    border-bottom: 100px solid goldenrod;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    left: -80px;
+    top: -200px;
+}
+
+.ellipse {
+    margin-left: 30px;
+    height: 200px;
+    width: 200px;
+    background-color: goldenrod;
+    border-radius: 250px 100px;
+    transform: rotate(45deg);
+}
+
+.leaf {
+    margin-left: 20px;
+    height: 200px;
+    width: 200px;
+    background-color: goldenrod;
+    border-radius: 250px 0;
+}
+
+.drop {
+    height: 160px;
+    width: 160px;
+    background-color: goldenrod;
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(45deg);
+    margin: 0 0 0 -10px;
+}
+
+.heart {
+    margin: 0 0 50px 40px;
+    position: relative;
+    height: 200px;
+    width: 142px;
+    background-color: goldenrod;
+    border-radius: 200px 200px 0 0;
+    transform: rotate(45deg);
+}
+
+.heart::before {
+    content: "";
+    position: absolute;
+    height: 200px;
+    width: 142px;
+    background-color: goldenrod;
+    border-radius: 200px 200px 0 0;
+    transform: rotate(-90deg);
+    left: -30px;
+    top: 30px;
+}
+
+.star {
+    position: relative;
+    height: 0;
+    width: 0;
+    border-bottom: 200px solid goldenrod;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    margin: 20px 0 80px 50px;
+}
+
+.star::before {
+    content: "";
+    position: absolute;
+    top: 70px;
+    left: -130px;
+    height: 0;
+    width: 0;
+    border-bottom: 200px solid goldenrod;
+    border-left: 130px solid transparent;
+    border-right: 130px solid transparent;
+    transform: rotate(180deg);
+}

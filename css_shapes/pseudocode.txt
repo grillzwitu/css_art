@@ -1,0 +1,59 @@
+Steps For Creating the Shapes
+
+1. Circle
+- Create a div. 
+- Set its height and width to make it a square. 
+- Apply a border-radius 50%.
+
+2. Semi-circle
+- Create a rectangle. 
+- Apply border-radius top left and top right same as the height of the rectangle.
+
+3. Triangle
+- Create a div.
+- Set height and width as zero
+- Draw a solid border and make the side border transparent.
+
+4. Trapezium 
+- Create a div.
+- Similar to a triangle but it has some width.
+
+5. Parallelogram
+- Create a div.
+- Make it a rectangle.
+- Apply skew to tilt it.
+
+6. Hexagon
+- Create a div.
+- Make two trapeziums of same size. 
+- Make one to be upside down using border-top and border-bottom alternately. 
+- Align them.
+
+7. Ellipse
+- Create a div.
+- Make it a square
+- Apply larger border-radius at the top-left and bottom-right corner
+- And a smaller border-radius at the top-right and bottom-left corners
+- Rotate to a desired degree.
+
+8. Leaf
+- Create a div.
+- Make it a square.
+- Apply larger border-radius at top-left and bottom-right corner.
+
+9. Drop
+- Create a div.
+- Make it a square 
+- Apply 50% border-radius to all the sides except one side
+- Rotate so the tip comes to the top.
+
+10. Heart
+- Create a div.
+- Make it a rectangle and apply circular border at top
+- Rotate it 45deg
+- Create another rectangle with circular border and rotate in 45deg in other direction
+- Align both of them
+
+11. Star
+- Create two triangles, one upside down. 
+- Align second triangle in the middle of the first one.
